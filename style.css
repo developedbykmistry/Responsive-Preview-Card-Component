@@ -1,0 +1,208 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /*font-family: "Lexend Deca", sans-serif; For  400px */
+  /* font-family: "Big Shoulders Display", cursive; For 700px */
+}
+
+.main-card {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  height: 550px;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  color: #fff;
+}
+
+/* Card ONE */
+
+.card-one {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.card-one img {
+  margin-left: 40px;
+  margin-top: 55px;
+}
+
+.card-one h1 {
+  font-family: "Big Shoulders Display";
+  margin-left: 40px;
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+.card-one p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  width: 60%;
+  margin-left: 40px;
+  margin-top: 40px;
+  line-height: 25px;
+}
+
+.card-one .btn {
+  height: 45px;
+  width: 130px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  margin-left: 40px;
+  margin-top: 60px;
+  margin-bottom: -0px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Lexend Deca", sans-serif;
+  cursor: pointer;
+}
+/* Card TWO */
+
+.card-two {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card-two img {
+  margin-left: 40px;
+  margin-top: 55px;
+}
+
+.card-two h1 {
+  font-family: "Big Shoulders Display";
+  margin-left: 40px;
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+.card-two p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  width: 60%;
+  margin-left: 40px;
+  margin-top: 40px;
+  line-height: 25px;
+}
+
+.card-two .btn {
+  height: 45px;
+  width: 130px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  margin-left: 40px;
+  margin-top: 60px;
+  margin-bottom: -0px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Lexend Deca", sans-serif;
+  cursor: pointer;
+}
+
+/* Card THREE */
+
+.card-three {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card-three img {
+  margin-left: 40px;
+  margin-top: 55px;
+}
+
+.card-three h1 {
+  font-family: "Big Shoulders Display";
+  margin-left: 40px;
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+.card-three p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  width: 60%;
+  margin-left: 40px;
+  margin-top: 40px;
+  line-height: 25px;
+}
+
+.card-three .btn {
+  height: 45px;
+  width: 130px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  margin-left: 40px;
+  margin-top: 60px;
+  margin-bottom: -0px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Lexend Deca", sans-serif;
+  cursor: pointer;
+}
+
+.attribution {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 411px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .main-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: -70px;
+  }
+
+  .card-one,
+  .card-two,
+  .card-three {
+    width: 300px;
+    height: 600px;
+    margin-left: -50px;
+  }
+
+  .card-one {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+  }
+
+  .card-three {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .card-one .btn {
+    margin-bottom: 25px;
+    border: none;
+    background-color: #fff;
+    color: hsl(31, 77%, 52%);
+  }
+  .card-two .btn {
+    margin-bottom: 25px;
+    border: none;
+    background-color: #fff;
+    color: hsl(184, 100%, 22%);
+  }
+  .card-three .btn {
+    margin-bottom: 25px;
+    border: none;
+    background-color: #fff;
+    color: hsl(179, 100%, 13%);
+  }
+} ;
