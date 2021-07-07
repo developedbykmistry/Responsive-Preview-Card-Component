@@ -20,6 +20,12 @@ body {
   color: #fff;
 }
 
+.card-one,
+.card-two,
+.card-three {
+  height: 500px;
+}
+
 /* Card ONE */
 
 .card-one {
