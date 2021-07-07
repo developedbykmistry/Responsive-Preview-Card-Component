@@ -49,6 +49,22 @@ body {
   line-height: 25px;
 }
 
+.card-one .btn:hover {
+  height: 45px;
+  width: 130px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  margin-left: 40px;
+  margin-top: 60px;
+  margin-bottom: -0px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Lexend Deca", sans-serif;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+}
+
 .card-one .btn {
   height: 45px;
   width: 130px;
@@ -61,6 +77,9 @@ body {
   padding-top: 10px;
   font-family: "Lexend Deca", sans-serif;
   cursor: pointer;
+  background-color: #fff;
+  color: hsl(31, 77%, 52%);
+  transition: 0.2s ease-in-out;
 }
 /* Card TWO */
 
@@ -89,6 +108,22 @@ body {
   line-height: 25px;
 }
 
+.card-two .btn:hover {
+  height: 45px;
+  width: 130px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  margin-left: 40px;
+  margin-top: 60px;
+  margin-bottom: -0px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Lexend Deca", sans-serif;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+}
+
 .card-two .btn {
   height: 45px;
   width: 130px;
@@ -101,6 +136,9 @@ body {
   padding-top: 10px;
   font-family: "Lexend Deca", sans-serif;
   cursor: pointer;
+  background-color: #fff;
+  color: hsl(184, 100%, 22%);
+  transition: 0.2s ease-in-out;
 }
 
 /* Card THREE */
@@ -132,10 +170,29 @@ body {
   line-height: 25px;
 }
 
+.card-three .btn:hover {
+  height: 45px;
+  width: 130px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  margin-left: 40px;
+  margin-top: 60px;
+  margin-bottom: -0px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Lexend Deca", sans-serif;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+
 .card-three .btn {
   height: 45px;
   width: 130px;
   border: 2px solid #fff;
+  background-color: #fff;
+  color: hsl(179, 100%, 13%);
   border-radius: 25px;
   margin-left: 40px;
   margin-top: 60px;
